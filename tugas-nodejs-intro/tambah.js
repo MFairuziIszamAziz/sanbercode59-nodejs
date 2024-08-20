@@ -1,4 +1,5 @@
-const tambah = require("./latihan-3");
+// const tambah = require("./latihan-3.js");
+const tambah = require("./latihan-3.ts");
 
 const angka1 = 1;
 const angka2 = 7;
