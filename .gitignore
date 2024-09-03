@@ -8,6 +8,19 @@ build/
 # Logs
 *.log
 
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+build/
+
 # Environment variables
 .env
 
@@ -18,3 +31,28 @@ Thumbs.db
 # Editor files
 .vscode/
 .idea/
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac system files
+.DS_Store
+
+# Linux system files
+*~
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Misc
+*.tgz
+*.gz
+*.zip
+*.rar
+*.7z
+
+# Optional: Ignore coverage reports
+coverage/
