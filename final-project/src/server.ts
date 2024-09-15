@@ -1,6 +1,6 @@
 import express from "express";
-import db from "@/utils/database";
-import routes from "@/routes";
+import db from "./utils/database";
+import routes from "./routes";
 import bodyParser from "body-parser";
 import docs from "./docs/routes"; // Pastikan path ini benar
 

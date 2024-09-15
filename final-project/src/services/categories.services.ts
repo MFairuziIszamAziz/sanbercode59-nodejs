@@ -1,4 +1,4 @@
-import { CategoriesModel, Category } from "@/models/categories.models";
+import { CategoriesModel, Category } from "../models/categories.models";
 
 export const create = async (payload: Category): Promise<Category> => {
   const result = await CategoriesModel.create(payload);
